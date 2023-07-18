@@ -6,20 +6,37 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thalby</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mobile_menu.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style_preproc.css">
 
 </head>
 <body>
 <header>
     <div class="container">
         <nav class="nav">
-            <ul>
-                <li><a>Shop</a></li>
-                <li><a>Collections</a></li>
-                <li><a>Try a Free Guide</a></li>
-                <li><a class="stories">Stories</a></li>
-            </ul>
+            <div class="menu-btn">
+                <div class="line line--1"></div>
+                <div class="line line--2"></div>
+                <div class="line line--3"></div>
+            </div>
+
+            <div class="nav-links">
+                <a href="" class="link">Shop</a>
+                <a href="" class="link">Collections</a>
+                <a href="" class="link">Try a Free Guide</a>
+                <a href="" class="link">Stories</a>
+            </div>
         </nav>
+        <!--<div class="container">
+            <nav class="nav">
+                <ul>
+                    <li><a>Shop</a></li>
+                    <li><a>Collections</a></li>
+                    <li><a>Try a Free Guide</a></li>
+                    <li><a class="stories">Stories</a></li>
+                </ul>
+            </nav>-->
         <a class="logo"><img src="/images/Logo.svg"></a>
         <ul class="nav_2">
             <li><a><img src="/images/Inst.svg"></a></li>
@@ -30,12 +47,12 @@
 </header>
 <section class="fall_deeper">
     <div class="container">
-        <div class="fall_deeper_text">
+        <article class="fall_deeper_text">
             <h2>Fall deeper in love with </h2>
             <h2>humanity.</h2>
             <p>Get to know the world through our concise, informative and inspiring guides.</p>
             <a>Shop now</a>
-        </div>
+        </article>
         <img src="/images/image_1.png">
     </div>
 </section>
@@ -103,101 +120,100 @@
 </section>
 <section class="some_of_the">
     <div class="container">
-    <h3>Some of the features that make Thalby guides unique</h3>
-    <div>
-        <article>
-            <img src="images/" alt="img">
-            <p>Written by locals</p>
-        </article>
-        <article>
-            <img src="images/" alt="img">
-            <p>Packed with insight</p>
-        </article>
-        <article>
-            <img src="images/" alt="img">
-            <p>Interviews with diverse voices</p>
-        </article>
-        <article>
-            <img src="images/" alt="img">
-            <p>Key facts and etiquette tips</p>
-        </article>
-        <article>
-            <img src="images/" alt="img">
-            <p>A concise 1-hour read</p>
-        </article>
-        <article>
-            <img src="images/" alt="img">
-            <p>Instant digital access</p>
-        </article>
-    </div>
+        <h3>Some of the features that make Thalby guides unique</h3>
+        <div class="point">
+            <div class="pointer">
+                <p>Written by<br>locals</p>
+            </div>
+            <div class="pointer">
+                <p>Packed with<br>insight</p>
+            </div>
+            <div class="pointer">
+                <p>Interviews with<br>diverse voices</p>
+            </div>
+            <div class="pointer">
+                <p>Key facts and<br>etiquette tips</p>
+            </div>
+            <div class="pointer">
+                <p>A concise<br>1-hour read</p>
+            </div>
+            <div class="pointer">
+                <p>Instant<br>digital access</p>
+            </div>
+        </div>
+        <h4>Each Thalby guide includes interviews with a range of fascinating voices, such as</h4>
     </div>
 </section>
-<section>
+<section class="each_thalby">
     <div class="container">
-        <h3>Each Thalby guide includes interviews with a range of fascinating voices, such as</h3>
-        <div>
+        <div class="i_dont_like">
             <article>
-                <a><img src="images/" alt="img"></a>
-                <div>
+                <a><img src="images/image_7.svg" alt="img"></a>
+                <div class="signature">
                     <p>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
                     <p>Camille Muller, Landscape Designer, France</p>
-                    <a>Discover</a>
+                    <a href="#">Discover</a>
                 </div>
             </article>
             <article>
-                <a><img src="images/" alt="img"></a>
-                <div>
+                <a><img src="images/image_8.svg" alt="img"></a>
+                <div class="signature">
                     <p>"Magic is not magic in the sense that I can just wish for anything."</p>
                     <p>Sonia Kowalewski, Witch, Germany</p>
-                    <a>Discover</a>
+                    <a href="#">Discover</a>
                 </div>
             </article>
             <article>
-                <a><img src="images/" alt="img"></a>
-                <div>
+                <a><img src="images/image_9.svg" alt="img"></a>
+                <div class="signature">
                     <p>"I was eight years old when I entered my first competition. I won it."</p>
                     <p>Lilly Stoephasius, Skateboarder, Germany</p>
-                    <a>Discover</a>
+                    <a href="#">Discover</a>
                 </div>
             </article>
         </div>
     </div>
 </section>
-<section>
+<section class="last_section">
     <div class="container">
-        <h3>Keep in touch</h3>
-        <div>
-            <input>
-            <input>
-            <input>
-        </div>
-        <button>
+        <h4>Keep in touch</h4>
+        <p>Get our travel advice, global views and travel freebies in your inbox</p>
+        <form class="inputs">
+            <label for="FirstName"></label>
+            <input type="text" id="FirstName" name="FirstName">
+            <label for="FirstName"></label>
+            <input type="text" id="LastName" name="Last Name">
+            <label for="FirstName"></label>
+            <input type="text" id="Email" name="Email">
+        </form>
+        <button type="submit">
             Subscribe
         </button>
     </div>
 </section>
 <footer>
     <div class="container">
-        <div>
-            <a><img src="images/" alt="img"></a>
-            <a><img src="images/" alt="img"></a>
-            <a><img src="images/" alt="img"></a>
-            <a><img src="images/" alt="img"></a>
+        <div class="social_networks">
+            <a><img src="images/logo_2.svg" alt="img"></a>
+            <a><img src="images/facebook.svg" alt="img"></a>
+            <a><img src="images/insta.svg" alt="img"></a>
+            <a><img src="images/twitter.svg" alt="img"></a>
         </div>
-        <div>
-            <a>ABOUT</a>
-            <a>About Us</a>
-            <a>Privacy Policy</a>
-            <a>Terms and Conditions</a>
-            <a>Write for Us</a>
+        <div class="about_">
+            <a class="about">ABOUT</a>
+            <a class="else">About Us</a>
+            <a class="else">Privacy Policy</a>
+            <a class="else">Terms and Conditions</a>
+            <a class="else">Write for Us</a>
         </div>
-        <div>
-            <a>CONTACT</a>
-            <a>Email hi@thalby.com</a>
-            <a>Help</a>
+        <div class="contact_">
+            <a class="contact">CONTACT</a>
+            <a class="else">Email hi@thalby.com</a>
+            <a class="else">Help</a>
         </div>
-        <p>Thalby LLC © 2021</p>
     </div>
+    <p class="thalby_llc">Thalby LLC © 2021</p>
 </footer>
+<script src="js/scripts.js"></script>
 </body>
 </html>
