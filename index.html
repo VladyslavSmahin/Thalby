@@ -6,9 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Thalby</title>
-    <link rel="stylesheet" href="css/mobile_menu.css">
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style_preproc.css">
+    <link rel="stylesheet" href="css/mobile_menu.css">
 
 </head>
 <body>
@@ -28,15 +28,6 @@
                 <a href="" class="link">Stories</a>
             </div>
         </nav>
-        <!--<div class="container">
-            <nav class="nav">
-                <ul>
-                    <li><a>Shop</a></li>
-                    <li><a>Collections</a></li>
-                    <li><a>Try a Free Guide</a></li>
-                    <li><a class="stories">Stories</a></li>
-                </ul>
-            </nav>-->
         <a class="logo"><img src="/images/Logo.svg"></a>
         <ul class="nav_2">
             <li><a><img src="/images/Inst.svg"></a></li>
@@ -53,7 +44,7 @@
             <p>Get to know the world through our concise, informative and inspiring guides.</p>
             <a>Shop now</a>
         </article>
-        <img src="/images/image_1.png">
+        <img src="/images/images_1.png">
     </div>
 </section>
 <section class="our_sellers container">
@@ -61,8 +52,8 @@
         <h3>Our guides explain countries and cultures.</h3>
         <p>Are you curious about the world around you? Our guides are for smart global citizens, world travelers and
             engaged residents who want to gain a deeper understanding of the cultures and societies they care about.</p>
-        <p>Available as ebooks here and on Amazon.</p>
-        <h3>Our best sellers</h3>
+        <h5>Available as ebooks here and on Amazon.</h5>
+        <h4>Our best sellers</h4>
     </div>
     <div class="articles">
         <article>
@@ -97,9 +88,9 @@
     </article>
 </section>
 <section class="people_and_society_2 people_and_society">
-    <article class="container">
+    <article class="container ">
         <a><img src="images/image_5.svg"></a>
-        <div>
+        <div class="culture">
             <h3>Culture and Heritage</h3>
             <p>As well as covering heritage and tradition, our guides to culture introduce you to the designers, artists
                 and chefs creating at the forefront of today's culture.</p>
@@ -150,25 +141,25 @@
             <article>
                 <a><img src="images/image_7.svg" alt="img"></a>
                 <div class="signature">
-                    <p>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
-                    <p>Camille Muller, Landscape Designer, France</p>
-                    <a href="#">Discover</a>
+                    <p class="p_1">"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
+                    <p class="p_2">Camille Muller, Landscape Designer, France</p>
+                    <a class="discover" href="#">Discover</a>
                 </div>
             </article>
             <article>
                 <a><img src="images/image_8.svg" alt="img"></a>
                 <div class="signature">
-                    <p>"Magic is not magic in the sense that I can just wish for anything."</p>
-                    <p>Sonia Kowalewski, Witch, Germany</p>
-                    <a href="#">Discover</a>
+                    <p class="p_1">"Magic is not magic in the sense that I can just wish for anything."</p>
+                    <p class="p_2">Sonia Kowalewski, Witch, Germany</p>
+                    <a class="discover" href="#">Discover</a>
                 </div>
             </article>
             <article>
                 <a><img src="images/image_9.svg" alt="img"></a>
                 <div class="signature">
-                    <p>"I was eight years old when I entered my first competition. I won it."</p>
-                    <p>Lilly Stoephasius, Skateboarder, Germany</p>
-                    <a href="#">Discover</a>
+                    <p class="p_1">"I was eight years old when I entered my first competition. I won it."</p>
+                    <p class="p_2">Lilly Stoephasius, Skateboarder, Germany</p>
+                    <a class="discover" href="#">Discover</a>
                 </div>
             </article>
         </div>
@@ -179,14 +170,20 @@
         <h4>Keep in touch</h4>
         <p>Get our travel advice, global views and travel freebies in your inbox</p>
         <form class="inputs">
-            <label for="FirstName"></label>
-            <input type="text" id="FirstName" name="FirstName">
-            <label for="FirstName"></label>
-            <input type="text" id="LastName" name="Last Name">
-            <label for="FirstName"></label>
-            <input type="text" id="Email" name="Email">
+            <div>
+                <label for="FirstName"></label>
+                <input placeholder="First Name" type="text" id="FirstName" name="FirstName">
+            </div>
+            <div>
+                <label for="FirstName"></label>
+                <input placeholder="Last Name" type="text" id="LastName" name="Last Name">
+            </div>
+            <div>
+                <label for="FirstName"></label>
+                <input placeholder="Email" type="text" id="Email" name="Email">
+            </div>
         </form>
-        <button type="submit">
+        <button type="submit" class="subscribe">
             Subscribe
         </button>
     </div>
