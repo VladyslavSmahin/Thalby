@@ -160,7 +160,8 @@ header {
     font-weight: 700;
     line-height: normal; }
   .articles img {
-    margin-bottom: 27px; }
+    margin-bottom: 27px;
+    width: 315px; }
   .articles .price {
     margin-bottom: 10px;
     color: #000;
