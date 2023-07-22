@@ -1,3 +1,159 @@
+@media screen and (max-width: 1024px) {
+    nav .menu-btn {
+        top: 4%;
+        right: 250px;
+        display: block;
+    }
+
+    nav {
+        /* overflow: hidden;*/
+        position: relative;
+        transform: translateX(-500px);
+        height: 100%;
+        width: 100%;
+        transition: all 800ms cubic-bezier(.8, 0, .33, 1);
+        border-radius: 0% 0% 100% 50%;
+    }
+
+    nav.nav-open {
+        transform: translateX(0px);
+        border-radius: 0% 0% 0% 0%;
+        background: rgba(200, 196, 196, 0.9);
+
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    nav .menu-btn {
+        position: absolute;
+        padding: 0;
+        width: 30px;
+        cursor: pointer;
+        z-index: 2;
+    }
+
+    nav .menu-btn .line {
+        padding: 0;
+        width: 30px;
+        background: #000000;
+        height: 2px;
+        margin: 5px 0;
+        transition: all 700ms cubic-bezier(.9, 0, .33, 1);
+    }
+
+    nav .menu-btn .line.line--1 {
+        width: 30px;
+        transform: rotate(0) translateY(0);
+    }
+
+    nav .menu-btn .line.line--1.line-cross {
+        width: 30px;
+        transform: rotate(45deg) translateY(10px);
+        background: rgba(0, 0, 0, 0.9);
+    }
+
+    nav .menu-btn .line.line--2 {
+        width: 28px;
+        transform: translateX(0);
+    }
+
+    nav .menu-btn .line.line--2.line-fade-out {
+        width: 28px;
+        transform: translate(30px);
+        opacity: 0;
+    }
+
+    nav .menu-btn .line.line--3 {
+        width: 20px;
+        transform: rotate(0) translateY(0);
+    }
+
+    nav .menu-btn .line.line--3.line-cross {
+        width: 30px;
+        transform: rotate(-45deg) translateY(-10px);
+        background: rgba(0, 0, 0, 0.6);
+    }
+
+    nav .menu-btn .line.line--1.line-cross {
+        background: white;
+    }
+
+    nav .menu-btn .line.line--3.line-cross {
+        background: white;
+    }
+
+    nav .nav-links {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-100px);
+        opacity: 0;
+        transition: all 900ms cubic-bezier(.9, 0, .33, 1);
+    }
+
+    header .nav-links a:nth-of-type(1) {
+        margin-right: 0px;
+    }
+
+    nav .nav-links.fade-in {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+    nav .nav-links .link {
+        margin: 20px 0;
+        text-decoration: none;
+        font-family: sans-serif;
+        color: white;
+        font-weight: 700;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        transition: all 300ms cubic-bezier(.9, 0, .33, 1);
+    }
+
+    nav .nav-links .link:hover {
+        color: white;
+    }
+    .container {
+        max-width: 900px;
+    }
+    .fall_deeper img {
+        position: unset;
+        width: 50%;
+        padding-bottom: 100px;
+    }
+    .fall_deeper .fall_deeper_text{
+        margin-right: 0px;
+        padding-left: 50px;
+    }
+}
+@media screen and (max-width: 950px){
+    nav {
+        transform: translateX(-470px);
+    }
+}
+@media screen and (max-width: 900px){
+    nav {
+        transform: translateX(-440px);
+    }
+}
+@media screen and (max-width: 850px){
+    nav {
+        transform: translateX(-390px);
+    }
+}
+@media screen and (max-width: 800px){
+    nav {
+        transform: translateX(-350px);
+    }
+}
 @media screen and (max-width: 768px) {
     header.container {
         padding: 0 15px;
@@ -141,6 +297,7 @@
 
     .fall_deeper .fall_deeper_text {
         margin-right: 0px;
+        padding-left: 0px;
     }
 
     .fall_deeper h1, .fall_deeper h2 {
@@ -230,6 +387,31 @@
         margin-right: 250px;
     }
 }
+@media screen and (max-width: 700px) {
+    nav .menu-btn{
+        right: 230px;
+    }
+}
+@media screen and (max-width: 680px) {
+    nav .menu-btn{
+        right: 210px;
+    }
+}
+@media screen and (max-width: 660px) {
+    nav .menu-btn{
+        right: 190px;
+    }
+}
+@media screen and (max-width: 640px) {
+    nav .menu-btn{
+        right: 170px;
+    }
+}
+@media screen and (max-width: 620px) {
+    nav .menu-btn{
+        right: 150px;
+    }
+}
 @media screen and (max-width: 480px) {
 
     header.container {
@@ -249,7 +431,7 @@
     nav {
         /* overflow: hidden;*/
         position: relative;
-        transform: translateX(-300px);
+        transform: translateX(-290px);
         height: 100%;
         width: 100%;
         transition: all 800ms cubic-bezier(.8, 0, .33, 1);
@@ -654,6 +836,3 @@
     }
 }
 
-@media screen and (max-width: 1280px) {
-
-}
