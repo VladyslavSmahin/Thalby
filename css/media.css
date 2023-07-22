@@ -1,6 +1,6 @@
 @media screen and (max-width: 1024px) {
     nav .menu-btn {
-        top: -8px;
+        top: -10px;
         right: 250px;
         display: block;
     }
@@ -134,26 +134,44 @@
         margin-right: 0px;
         padding-left: 50px;
     }
+    .nav.nav-open .menu-btn{
+        right: 10px;
+    }
 }
 @media screen and (max-width: 950px){
     nav {
         transform: translateX(-470px);
+    }
+    .nav.nav-open .menu-btn{
+        right: 10px;
+    }
+    nav .menu-btn {
+        top: -10px;
     }
 }
 @media screen and (max-width: 900px){
     nav {
         transform: translateX(-440px);
     }
+    .nav.nav-open .menu-btn{
+        right: 10px;
+    }
 }
 @media screen and (max-width: 850px){
     nav {
         transform: translateX(-390px);
     }
+    .nav.nav-open .menu-btn{
+        right: 10px;
+    }
 }
 @media screen and (max-width: 800px){
     nav {
         transform: translateX(-350px);
-    }
+    }.nav.nav-open .menu-btn{
+         right: 10px;
+     }
+
 }
 @media screen and (max-width: 768px) {
     header.container {
@@ -165,7 +183,7 @@
     }
 
     nav .menu-btn {
-        top: -8px;
+        top: -16px;
         right: 250px;
         display: block;
     }
@@ -188,7 +206,9 @@
         top: 0;
         left: 0;
     }
-
+    .nav.nav-open .menu-btn{
+        right: 10px;
+    }
     nav .menu-btn {
         position: absolute;
         padding: 0;
@@ -393,39 +413,56 @@
     nav .menu-btn{
         right: 230px;
     }
+    .nav.nav-open .menu-btn{
+        right: 10px;
+    }
 }
 @media screen and (max-width: 680px) {
     nav .menu-btn{
         right: 210px;
+    }
+    .nav.nav-open .menu-btn{
+        right: 10px;
     }
 }
 @media screen and (max-width: 660px) {
     nav .menu-btn{
         right: 190px;
     }
+    .nav.nav-open .menu-btn{
+        right: 10px;
+    }
 }
 @media screen and (max-width: 640px) {
     nav .menu-btn{
         right: 170px;
+    }
+    .nav.nav-open .menu-btn{
+        right: 10px;
     }
 }
 @media screen and (max-width: 620px) {
     nav .menu-btn{
         right: 150px;
     }
+    .nav.nav-open .menu-btn{
+        right: 10px;
+    }
 }
 @media screen and (max-width: 480px) {
 
     header.container {
         padding: 0 15px;
-    }
+    }.nav.nav-open .menu-btn{
+         right: 10px;
+     }
 
     .container {
         max-width: 450px;
     }
 
     nav .menu-btn {
-        top: -8px;
+        top: -16px;
         right: 4px;
         display: block;
     }
