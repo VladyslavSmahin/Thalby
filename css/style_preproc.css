@@ -202,7 +202,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 498px; }
+  max-width: 498px; }
 .people_and_society a {
   color: #000;
   font-family: Roboto;

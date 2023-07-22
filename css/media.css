@@ -1,7 +1,7 @@
 @media screen and (max-width: 1024px) {
     nav .menu-btn {
         top: -10px;
-        right: 250px;
+        right: 240px;
         display: block;
     }
 
@@ -132,10 +132,19 @@
     }
     .fall_deeper .fall_deeper_text{
         margin-right: 0px;
-        padding-left: 50px;
+        padding-left: 70px;
     }
     .nav.nav-open .menu-btn{
         right: 10px;
+    }
+    .our_sellers .our_guides h5{
+        margin-bottom: 30px;
+    }
+    .articles img {
+        width: 300px;
+    }
+    footer .social_networks{
+        margin-right: 550px;
     }
 }
 @media screen and (max-width: 950px){
@@ -458,7 +467,7 @@
      }
 
     .container {
-        max-width: 450px;
+        max-width: 400px;
     }
 
     nav .menu-btn {
@@ -699,12 +708,13 @@
     }
 
     .people_and_society p {
-        width: 400px;
+        max-width: 380px;
         font-size: 20px;
     }
 
     .people_and_society article {
         display: flex;
+        padding-top: 20px;
     }
 
     .people_and_society h3 {
@@ -767,7 +777,7 @@
     }
 
     .some_of_the {
-        padding-top: 100px;
+        padding-top: 40px;
         padding-bottom: 50px;
     }
 
@@ -805,6 +815,7 @@
     .each_thalby img {
         margin-bottom: 5px;
         max-width: 80%;
+        padding-top: 20px;
     }
 
     .each_thalby p:nth-of-type(1) {
@@ -875,4 +886,23 @@
         margin-bottom: 36px;
     }
 }
-
+@media screen and (max-width: 428px){
+    header.container {
+        padding: 0 15px;
+    }
+    .nav .menu-btn{
+        right: -62px;
+    }
+    .nav.nav-open .menu-btn{
+         right: 1px;
+     }
+    .fall_deeper p{
+        max-width: 380px;
+    }
+    .fall_deeper h2:nth-of-type(1){
+        max-width: 380px;
+    }
+    .container {
+        max-width: 380px;
+    }
+}
