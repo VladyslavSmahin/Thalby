@@ -409,6 +409,9 @@
     .some_of_the .point {
         margin-bottom: 100px;
     }
+    .some_of_the .pointer p{
+        font-size: 20px;
+    }
 
     .i_dont_like img {
         width: 220px;
@@ -774,6 +777,9 @@
 
     .some_of_the .point {
         margin-bottom: 50px;
+    }
+    .some_of_the .pointer p{
+        font-size: 12px;
     }
 
     .some_of_the {

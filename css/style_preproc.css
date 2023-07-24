@@ -202,7 +202,7 @@ header {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  max-width: 498px; }
+  width: 498px; }
 .people_and_society a {
   color: #000;
   font-family: Roboto;
@@ -252,6 +252,14 @@ header {
     margin-bottom: 163px; }
   .some_of_the .pointer {
     width: 33%; }
+    .some_of_the .pointer p {
+      color: #000;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal; }
     .some_of_the .pointer:before {
       content: '';
       display: inline-block;
